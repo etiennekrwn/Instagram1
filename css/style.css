@@ -1,0 +1,59 @@
+
+
+
+.trans {
+    color: blue;
+    animation-name: trans;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+}
+  
+@keyframes trans {
+    0%   {color: blue;}
+    20%  {color: blue;}
+    25%  {color: red;}
+    45%  {color: red;}
+    50%  {color: yellow;}
+    70%  {color: yellow;}
+    75%  {color:lawngreen;}
+    100% {color:lawngreen;}
+}
+
+.shift{
+    padding-left: 670px;
+    padding-bottom: 30px;
+}
+
+.btn-outline-purple{
+    border: 3px solid rgb(131,76,255);
+    color: rgb(131,76,255);
+    background-color: #15151d;
+}
+
+.btn-outline-purple:hover{
+    color: white;
+    background-color: rgb(131,76,255);
+}
+
+.btn-purple{
+    border: 3px solid rgb(131,76,255);
+    color: white;
+    background-color: rgb(131,76,255);
+    
+}
+
+.btn-purple:hover{
+    border: 3px solid rgb(131,76,255);
+    color: rgb(131,76,255);
+    background-color: #15151d;
+}
+
+.back-body{
+    background-color: rgb(34,41,53);
+    color: white;
+}
+
+.back-form{
+    background-color: #15151d;
+}
